@@ -3,8 +3,14 @@
 }
 #legend1{
     border-width: 1px;
+    margin-left: 50%;
 }
 #p1{
     font-size: smaller;
     color: darkblue;
+}
+#f1{
+    margin-top: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
