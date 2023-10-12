@@ -6,10 +6,25 @@ body{
     color: aliceblue;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     /* float: bottom; */
-    margin-top: 100%;
+    margin-top: 0%;
     margin-left: 10%;
     margin-right: 10%;
 }
 #footerdiv{
     background-color: rgb(26, 21, 29);
+}
+#divv{
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 3px solid darkblue;
+    border-radius: 10%;
+}
+#dv1{
+    border: 3px solid black;
+}
+a{
+    border: 3px solid black;
+}
+img{
+    border: 3px solid black;
 }
