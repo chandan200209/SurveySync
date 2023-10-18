@@ -1,30 +1,99 @@
-body{
-    background-color: rgb(61, 160, 160);
+#nav-bar{
+    border: 5px solid black;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    /* margin-left: 70px; */
+    /* margin-top: -60px; */
 }
-#ftr1{
-    background-color: rgb(38, 36, 36);
-    color: aliceblue;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* float: bottom; */
-    margin-top: 0%;
-    margin-left: 10%;
-    margin-right: 10%;
+/* label > div{
+
+} */
+#logo{
+    margin-left: 10px;
+    /* margin-top: 20px; */
 }
-#footerdiv{
-    background-color: rgb(26, 21, 29);
+#logo-png{
+    height: 100px;
+    width: 100px;
+    margin-top: 5px;
+    margin-bottom: 20px;
 }
-#divv{
+#nav-bar-options{
+    margin-left: 530px;
+    margin-top: -75px;
+    margin-bottom: 100px;
+    /* border: 5px solid black; */
+    /* margin-left: 70px;  */
+    /* margin-top: -60px; */
+}
+.explore{
+    margin-left: 0px;
+    margin-bottom: 5px;
+    /* margin-bottom: 190px; */
+    /* padding-top: -30px; */
+    
+}  
+#log-in{
+    margin-left: -30px;
+    margin-top: -125px;
+}
+/* #logo-and-explore{
+    margin-top: -20px;
+} */
+#sign-up{
+    margin-left: 1850px;
+    margin-top: -28px;
+}
+.nav-bar-class{
+    font-size: x-large;
+}
+#sliding-pix{
+    border: 5px solid black;
+    border-radius: 20px;
+    padding-bottom: 400px;
+    /* margin-left: 250px; */
+}
+#content{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+#option-bar{
+    /* margin-right: 1400px; */
+    width: 230px;
+    margin-left: 0px;
+    height: 600px;
+    /* margin-top: 1000px ; */
+    border: 5px solid rgb(2, 36, 2);
+    /* flex-direction: column-reverse; */
+}
+#all-services{
+    margin-top: -610px;
+    border: 5px solid darkblue;
+    padding: 10px;
+    margin-left: 250px;
+}
+
+/* .services span{
+    width: %;
+} */
+#footer-div{
+    background-color: rgb(14, 49, 66);
+    font-size: 1.5rem;
+    /* margin-top: 10px; */
+    margin-bottom: 0%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white
+}
+#rights, #trademarks, #footer-options{
+    background-color: darkslategray;
     margin-left: 50px;
-    margin-right: 50px;
-    border: 3px solid darkblue;
-    border-radius: 10%;
+    margin-right: 50px
 }
-#dv1{
-    border: 3px solid black;
+body{
+    background-color: aqua;
 }
-a{
-    border: 3px solid black;
-}
-img{
-    border: 3px solid black;
+#first-span{
+    margin-top: 8000px;
 }
