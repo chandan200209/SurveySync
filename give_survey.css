@@ -1,0 +1,8 @@
+.nav-bar-class{
+    display: inline-flex;
+    justify-content: space-between;
+}
+#logo-png{
+    height: 50px;
+    width: 50px;
+}
