@@ -1,0 +1,107 @@
+body {
+  padding: 0;
+  margin: 0;
+  width: 100vw;
+  height: 500vh;
+}
+.navbar {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 20px;
+  align-items: center;
+  justify-content: space-between;
+  height: 8vh;
+}
+.nav-1 {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-weight: 800;
+  font-size: large;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.nav-headings {
+  display: flex;
+  gap: 20px;
+  margin-left: 30px;
+  align-items: center;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+}
+.nav-business {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.signup {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-left: 20px;
+  margin-right: 25px;
+  cursor: pointer;
+}
+.signup > div > img {
+  width: 25px;
+  height: 25px;
+}
+#nav-logo {
+  height: 40px;
+  width: 40px;
+}
+.nav-item {
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.nav-item:hover {
+  cursor: pointer;
+  color: white;
+  background-color: black;
+  padding-left: 15px;
+  padding-right: 15px;
+  border-radius: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.main-top{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+}
+.left{
+    width: 20vw;
+    background-color: aqua;
+    display: grid;
+    grid-template-rows: repeat(1fr,7);
+}   
+.right{
+    width: 80vw;
+    background-color: burlywood;
+}
+.main{
+    height: 300vh;
+    width: 100%;
+    background-color: rgb(158, 186, 112);
+}
+.footer{
+    height: 100vh;
+    display: flex;
+}
+.footer-left{
+    width: 30vw;
+    background-color: rgb(66, 60, 60);
+}
+.footer-right{
+    width: 70vw;
+    background-color: gray;
+}
