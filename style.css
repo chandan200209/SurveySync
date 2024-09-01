@@ -53,6 +53,11 @@ body {
   width: 25px;
   height: 25px;
 }
+.signup > div img {
+  width: 25px;
+  height: 25px;
+  text-decoration: none;
+}
 #nav-logo {
   height: 40px;
   width: 40px;
