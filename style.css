@@ -79,19 +79,96 @@ body {
   padding-bottom: 5px;
 }
 .main-top{
+  color: white;
     height: 80vh;
     width: 100%;
     display: flex;
+    background-image: url("./images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
 }
 .left{
-    width: 20vw;
-    background-color: aqua;
+    width: 35vw;
     display: grid;
-    grid-template-rows: repeat(1fr,7);
+    grid-template-rows: repeat(4,1fr);
+    padding-left: 10vw;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+    padding-right: 5vw;
 }   
+#left-div-1{
+  font-size: 35pt;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#left-div-2{
+  font-size: 14pt;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 30px;
+  width: 30vw;
+}
+.left-sign-up{
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+#left-email{
+  border-radius: 25px;
+  height: 40px;
+  width: 320px;
+}
+#right-arrow{
+  height: 20px;
+  width: 20px;
+  filter: invert(1);
+}
+.left-sign-up button{
+  width: 180px;
+  border-radius: 18px;
+  height: 45px;
+  background-color: yellow;
+}
+.left-sign-up > div > button > a > span{
+  position: relative;
+  bottom: 3px;
+  left: 8px;
+}
+.left-sign-up> div> button> a{
+  text-decoration: none;
+  color: black;
+  font-weight: 600;
+  font-size: 18px;
+}
+#tagline{
+  position: relative;
+  bottom: 20px;
+  font-size: 18px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ratings{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  font-size: 20px;
+  position: relative;
+  bottom: 10vh;
+  color: aquamarine;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.ratings span{
+font-style: italic ;
+font-size: 30px;
+}
+.ratings img{
+  width: 20px;
+  height: 20px;
+  filter: invert(1);
+}
 .right{
-    width: 80vw;
-    background-color: burlywood;
+    width: 50vw;
+}
+#right-img{
+  height: 70vh;
+  width: 40vw;
+  margin-top: 7.5vh;
+  margin-left: 5vw;
 }
 .main{
     height: 300vh;
