@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 600vh;
+  height: 670vh;
 }
 .navbar {
   display: flex;
@@ -169,12 +169,12 @@ body {
 }
 #right-img {
   height: 70vh;
-  width: 40vw;
-  margin-top: 7.5vh;
-  margin-left: 5vw;
+  width: 30vw;
+  margin-top: 5.5vh;
+  margin-left: 10vw;
 }
 .main {
-  height: 400vh;
+  height: 510vh;
   width: 100%;
 }
 .main-tagline{
@@ -327,22 +327,175 @@ body {
 }
 .recommendation h1{
   font-size: 60px;
+  color: #0d464a;
 }
 .recommendation-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
+  width: 80vw;
+  margin-left: 7.5vw;
+  margin-bottom: 20vh;
+}
+.recommendation-grid h2{
+  color: rgb(55, 55, 55);
+}
+.recommendation-grid img{
+  height: 45px;
+  width: 45px;
+}
+.recommendation-grid > div{
+  width: 30vw;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(90, 90, 90);
+}
+.recommendation-grid > div >div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.review #div3-2{
+  display: flex;
+  gap: 40px;
 }
 
-.footer {
-  height: 100vh;
+.review #sundar-pichai{
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin-top: 50px;
+}
+.review #alphabet{
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 40px;
+  color: rgb(16, 16, 16);
+}
+.brands{
+  margin-top: 10vh;
   display: flex;
+  flex-direction: column;
+}
+.brands h1{
+  font-size: 60px;
+  text-align: center;
+  color: #092224;
+}
+.footer {
+  height: 60vh;
+  display: flex;
+}
+.footer-right img{
+  height: 30px;
+  width: 30px;
 }
 .footer-left {
   width: 30vw;
-  background-color: rgb(66, 60, 60);
+  background-color: #092224;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.footer-left h3{
+  margin-left: 5vw;
+  margin-top: 10vh;
+  font-size: 25px;
+  color: white;
+}
+.footer-left div{
+  margin-left: 5vw;
+}
+.footer-left a{
+  text-decoration: none;
+  color: white;
 }
 .footer-right {
   width: 70vw;
-  background-color: gray;
+  background-color: #348e95;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5vw;
+}
+.footer-right >  div{
+  margin-top: 7vh;
+}
+.footer-right h3{
+  font-size: 25px;
+  text-decoration: underline;
+  font-weight: 800;
+}
+.footer-right a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+.footer-right li{
+  list-style-type: none;
+  position: relative;
+  right: 2.5vw;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+.company{
+  margin-left: 10vw;
+}
+.contact{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: relative;
+  right: 7.5vw;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width:  20vw;
+  position: relative;
+  bottom: 30px;
+  font-size: 18px;
+}
+.contact-info #phone{
+  position: relative;
+  bottom: 20px;
+}
+.contact-info #message{
+  position: relative;
+  bottom: 20px;
+}
+.contact-info > div{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.footer-logos{
+  display: flex;
+  gap: 20px;
+  position: relative;
+  bottom: 20px;
+}
+.footer-last{
+  display: flex;
+  align-items: flex-start;
+}
+.footer-last div{
+  height: 10vh;
+}
+.footer-last p{
+  margin-left: 5vw;
+}
+#footer-1{
+  background-color: #092224;
+  color: white;
+  width: 30vw;
+}
+#footer-2{
+  background-color: #348e95;
+  color: black;
+  width: 70vw;
+  cursor: pointer;
+}
+#footer-2 p{
+  margin-left: 10vw;
 }
