@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   width: 100vw;
-  height: 500vh;
+  height: 600vh;
 }
 .navbar {
   display: flex;
@@ -11,6 +11,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 8vh;
+  position:sticky;
 }
 .nav-1 {
   display: flex;
@@ -78,71 +79,72 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
 }
-.main-top{
+.main-top {
   color: white;
-    height: 80vh;
-    width: 100%;
-    display: flex;
-    background-image: url("./images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  background-image: url("./images/abstract-luxury-gradient-blue-background-smooth-dark-blue-with-black-vignette-studio-banner.jpg");
 }
-.left{
-    width: 35vw;
-    display: grid;
-    grid-template-rows: repeat(4,1fr);
-    padding-left: 10vw;
-    padding-top: 5vh;
-    padding-bottom: 10vh;
-    padding-right: 5vw;
-}   
-#left-div-1{
+.left {
+  width: 35vw;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+  padding-left: 10vw;
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  padding-right: 5vw;
+}
+#left-div-1 {
   font-size: 35pt;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
-#left-div-2{
+#left-div-2 {
   font-size: 14pt;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   margin-top: 30px;
   width: 30vw;
 }
-.left-sign-up{
+.left-sign-up {
   display: flex;
   gap: 30px;
   align-items: center;
 }
-#left-email{
+.left-email {
   border-radius: 25px;
   height: 40px;
   width: 320px;
 }
-#right-arrow{
+.right-arrow {
   height: 20px;
   width: 20px;
-  filter: invert(1);
 }
-.left-sign-up button{
+.left-sign-up button {
   width: 180px;
   border-radius: 18px;
   height: 45px;
   background-color: yellow;
 }
-.left-sign-up > div > button > a > span{
+.left-sign-up > div > button > a > span {
   position: relative;
   bottom: 3px;
   left: 8px;
 }
-.left-sign-up> div> button> a{
+.left-sign-up > div > button > a {
   text-decoration: none;
   color: black;
   font-weight: 600;
   font-size: 18px;
 }
-#tagline{
+.tagline {
   position: relative;
   bottom: 20px;
   font-size: 18px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.ratings{
+.ratings {
   display: flex;
   align-items: center;
   gap: 30px;
@@ -150,40 +152,197 @@ body {
   position: relative;
   bottom: 10vh;
   color: aquamarine;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
-.ratings span{
-font-style: italic ;
-font-size: 30px;
+.ratings span {
+  font-style: italic;
+  font-size: 30px;
 }
-.ratings img{
+.ratings img {
   width: 20px;
   height: 20px;
   filter: invert(1);
 }
-.right{
-    width: 50vw;
+.right {
+  width: 50vw;
 }
-#right-img{
+#right-img {
   height: 70vh;
   width: 40vw;
   margin-top: 7.5vh;
   margin-left: 5vw;
 }
-.main{
-    height: 300vh;
-    width: 100%;
-    background-color: rgb(158, 186, 112);
+.main {
+  height: 400vh;
+  width: 100%;
 }
-.footer{
-    height: 100vh;
-    display: flex;
+.main-tagline{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 30vh;
 }
-.footer-left{
-    width: 30vw;
-    background-color: rgb(66, 60, 60);
+.main-tagline #p1{
+  font-size: 40px;
+  font-family: lotagrotesque-regular, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+  font-weight: 800;
+  padding-top: 30px;
+  color: rgb(33, 32, 32);
 }
-.footer-right{
-    width: 70vw;
-    background-color: gray;
+.main-tagline #p2{
+  font-size: 45px;
+  position: relative;
+  bottom: 70px;
+  color: rgb(16, 182, 176);
+  font-style: italic;
+  font-weight: 700;
+}
+.features-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 80vw;
+  margin-left: 15vw;
+  height: 60vh;
+}
+.features-container h3{
+  font-size: 25px;
+  width: 15vw;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.features-container ul{
+  color: rgb(33, 32, 32);
+  width: 15vw;
+  font-size: 18px;
+  position: relative;
+  right: 2.5vw;
+  font-family: lotagrotesque-regular, Arial, Helvetica, sans-serif, Arial, Helvetica, sans-serif;
+}
+.login-again{
+  height: 60vh;
+  background-color: #092224;
+  border-radius: 50px;
+  margin-right: 1.2vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0px;
+}
+.login-again h1{
+  font-size: 60px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.login-again p{
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 25px;
+  width: 70vw;
+  text-align: center;
+  position: relative;
+  bottom: 40px;
+}
+#tagline2{
+  color: white;
+  margin-top: 25px;
+}
+.facts{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 80vw;
+  height: 30vh;
+  margin-left: 15vw;
+  margin-top: 10vh;
+}
+.facts div{
+  display: flex;
+  gap: 10px;
+}
+.facts img{
+  width: 45px;
+  height: 45px;
+  fill: rgb(16, 182, 176);
+}
+.facts p{
+  display: inline;
+  font-size: 20px;
+  width: 100px;
+  position: relative;
+  bottom: 2.5vh;
+}
+.facts span{
+  font-weight: 900;
+  font-size: 25px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.review{
+  width: 80vw;
+  margin-left: 10vw;
+  border-radius: 20px;
+  height: 50vh;
+  background-color: rgb(244, 246, 236);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.review h2{
+  font-size: 40px;
+  color: #0d464a;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.review p{
+  color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+}
+.review #div3{
+  display: flex;
+  gap: 40px;
+}
+.review img{
+  height: 120px;
+  box-shadow: 10px 10px 5px black;
+}
+.review #elon{
+  font-size: 30px;
+  font-weight: 700;
+  color: black;
+  margin-top: 50px;
+}
+.review #tesla{
+  font-size: 20px;
+  font-weight: 500;
+  position: relative;
+  bottom: 40px;
+  color: rgb(16, 16, 16);
+}
+.recommendation{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.recommendation h1{
+  font-size: 60px;
+}
+.recommendation-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.footer {
+  height: 100vh;
+  display: flex;
+}
+.footer-left {
+  width: 30vw;
+  background-color: rgb(66, 60, 60);
+}
+.footer-right {
+  width: 70vw;
+  background-color: gray;
 }
