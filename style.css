@@ -528,8 +528,8 @@ body {
   flex-direction: column;
   align-items: center;
   background-color:rgb(250, 243, 235);
-  width: 70vw;
-  margin-left: 15vw;
+  width: 90vw;
+  margin-left: 5vw;
   border-radius: 30px;
   padding-bottom: 5vh;
 }
