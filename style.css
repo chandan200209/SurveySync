@@ -655,4 +655,183 @@ body {
   width: 50px;
   height: 50px;
 }
-
+.homepage-filter{
+  height: 10vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  width: 95vw;
+  align-items: center;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
+}
+.dropdown{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.dropdown span{
+  font-size: 20px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.dropdown-2:hover .filter-dropdown{
+  display: block;
+}
+.dropdown-2:hover .drop-btn{
+  background-color: #ffffff;
+}
+.filter-dropdown a:hover
+{
+  background-color: #d2d0cf;
+}
+.filter-dropdown{
+  background-color: #f9f9f9;
+  display: none;
+  position: absolute;
+  min-width: 18vw;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.drop-btn{
+  cursor: pointer;
+  border: 2px solid black;
+  width: 18vw;
+  height: 40px;
+  text-align: left;
+  font-weight: 600;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.filter-dropdown a{
+  display: block;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+}
+#homepage-search{
+  width: 22.5vw;
+  height: 40px;
+}
+.homepage-main{
+  height: 470vh ;
+}
+.sample-templates-heading{
+  height: 60vh;
+  background-color: #082325;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  justify-content: center;
+}
+.sample-templates-heading h1{
+  font-size: 55px;
+  font-family: "Baloo 2";
+  color: white;
+}
+.sample-templates-heading h2{
+  font-family: "Baloo 2";
+  color: cyan;
+  font-size: 50px;
+  text-align: center;
+  position: relative;
+  bottom: 60px;
+}
+.sample-templates-heading p{
+  position: relative;
+  bottom: 12.5vh;
+  width: 65vw;
+  text-align: center;
+  color: rgb(199, 198, 198);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.homepage-survey-cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  row-gap: 40px;
+  column-gap: 40px;
+  width: 75vw;
+  margin-left: 12.5vw;
+  margin-top: 10vh;
+}
+.homepage-card{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid rgb(94, 94, 94);
+  border-radius: 15px;
+  gap: 32.5px;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgb(242, 245, 245);
+  padding-bottom: 35px;
+  cursor: pointer;
+  box-shadow: 10px 10px 5px rgba(0,0,0,0.3);
+}
+.homepage-survey-cards img{
+  height: 150px;
+  width: 320px;
+  border-radius: 10px;
+  border: 2px solid rgb(94, 94, 94);
+}
+.card-heading{
+  font-weight: 700;
+  font-size: 25px;
+  font-family: "Epilogue", sans-serif;
+  color: rgb(56, 56, 56);
+}
+.cards-info{
+  font-family: "Epilogue", sans-serif;
+}
+.cards-try-now button{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  padding-left: 5px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: "Baloo 2", sans-serif;
+  border-radius: 25px;
+  cursor: pointer;
+}
+.cards-try-now img{
+  width: 30px;
+  height: 30px;
+  border: none;
+}
+.homepage-sample{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 70vh;
+  margin-top: 10vh;
+}
+.homepage-sample h2{
+  font-size: 55px;
+  margin-top: 5vh;
+  color: #0e2c2e;
+}
+.homepage-sample h3{
+  font-size: 30px;
+  position: relative;
+  bottom: 7.5vh;
+  color: #10737a;
+}
+.sample-grid{
+  display: grid;
+  width: 100%;
+  grid-template-columns: 1fr 1fr;
+}
+.sample-grid img{
+  width: 30vw;
+  margin-left: 10vw;
+}
+.sample-grid p{
+  width: 40vw;
+  font-size: 20px;
+  font-family: "Baloo 2", sans-serif;
+}

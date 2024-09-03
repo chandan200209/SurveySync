@@ -1,11 +1,329 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-</head>
-<body>
-    Homepage
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content>
+        <meta name="description" content>
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="robots" content="INDEX,FOLLOW">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="utilities.css">
+        <link rel="stylesheet" href="homepage.css">
+        <title>SurveySync</title>
+    </head>
+    <body>
+        <nav class="navbar">
+            <div class="nav-1">
+                <div class="logo">
+                    <div>
+                        <img src="./images/survey-png.png" id="nav-logo" alt>
+                    </div>
+                    <div><a href="index.html">SurveySync</a></div>
+                </div>
+                <div class="nav-headings">
+                    <p class="nav-item">CREATE SURVEY</p>
+                    <p class="nav-item">GIVE SURVEY</p>
+                    <p class="nav-item">DISCUSSIONS</p>
+                    <p class="nav-item" id="about_contact"><a
+                            href="about_contact.html">ABOUT US</a></p>
+                </div>
+            </div>
+            <div class="nav-2">
+                <div class="nav-business">
+                    <p class="nav-item">SUPPORT</p>
+                    <p class="nav-item">FOR BUSINESS</p>
+                </div>
+                <div class="signup">
+                    <div><img src="./svg/search.svg" alt="search"></div>
+                    <div><img src="./svg/language.svg" alt="language"></div>
+                    <div><a href="sign_up.html"><img src="./svg/user.svg"
+                                alt="user"></a></div>
+                </div>
+            </div>
+        </nav>
+        <div class="black-line"></div>
+        <section class="homepage-main">
+            <div class="sample-templates-heading">
+                <div>
+                    <h1>Sample Surveys</h1><h2>
+                        and templates</h2></div>
+                <div><p>Browse through a variety of pre-made survey templates,
+                        just for you! Filter by sections and categories, or just
+                        enter the keywords for the template you’re searching
+                        for.</p></div>
+            </div>
+            <div class="black-line"></div>
+            <div class="homepage-filter">
+                <div class="dropdown">
+                    <span>Filter By</span>
+                    <div class="dropdown-2">
+                        <button class="drop-btn">Categories</button>
+                        <div class="filter-dropdown">
+                            <a href="#">Census</a>
+                            <a href="#">COVID-19</a>
+                            <a href="#">Customer Surveys</a>
+                            <a href="#">DEI</a>
+                            <a href="#">Employee Surveys</a>
+                            <a href="#">Entertainment</a>
+                            <a href="#">Events</a>
+                            <a href="#">Exit Polls</a>
+                            <a href="#">Faith-based Organization</a>
+                            <a href="#">Financial Services</a>
+                            <a href="#">Government</a>
+                            <a href="#">Healthcare</a>
+                            <a href="#">Higher Education</a>
+                            <a href="#">K12 Education</a>
+                            <a href="#">Market Research</a>
+                            <a href="#">Non-profit</a>
+                            <a href="#">Personality and Psychology</a>
+                            <a href="#">Real Estate</a>
+                            <a href="#">Research</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <input type="text"
+                        placeholder="&nbsp;&nbsp;Search for survey templates"
+                        id="homepage-search">
+                </div>
+            </div>
+            <div class="black-line"></div>
+            <section class="homepage-survey-cards">
+                <div class="homepage-card">
+                    <div><img src="./images/icons/education.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">EDUCATION</div>
+                    <div class="cards-info">"Discover how education is evolving! Take our survey and share your insights on learning trends, teaching methods, and future education needs. Your feedback shapes tomorrow's classrooms."</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/environment.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">ENVIRONMENT</div>
+                    <div class="cards-info">"Empower your community and shape a sustainable future by participating in our environment survey. Your insights help us understand key environmental challenges and craft effective solutions.</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/census.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">CENSUS</div>
+                    <div class="cards-info">"Your Voice Counts: Shape the Future with Every Response.                 Take Part in the Census: Empower Communities with Your Data."</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/exitpoll.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">EXIT POLL</div>
+                    <div class="cards-info">"Unlock insights into public opinion with our Exit Poll Survey! Cast your vote, see real-time results, and discover how your views compare to the broader community."</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/government.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">GOVERNMENT</div>
+                    <div class="cards-info">"Participate in our government survey to help shape the future! Your insights will directly impact policies and services aimed at improving our community. Share your thoughts today and make a difference."</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/health.jpg"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">HEALTH</div>
+                    <div class="cards-info">"Take part in our quick health survey to help us understand and improve the well-being of our community. Your input shapes better health solutions for everyone!"</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/bank.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">BANK CUSTOMER SERVICE</div>
+                    <div class="cards-info">Are your customers satisfied with your service? Find out!</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/feedback.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">CUSTOMER FEEDBACK FORM</div>
+                    <div class="cards-info">Give customers opportunities to offer comments and suggestions at every point in their journey.</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/worklife.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">EMPLOYEE WORK-LIFE BALANCE</div>
+                    <div class="cards-info">Keep your team satisfied and retain them longer with a regular assessment of how well they are able to balance corporate work life.</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/brand.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">BRAND AWARENESS</div>
+                    <div class="cards-info">Where does your brand rank, and what associations do customers have?</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/pre event.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">PRE EVENT SURVEY</div>
+                    <div class="cards-info">This survey can be used in advance of an event to help with planning and preparation.</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+                <div class="homepage-card">
+                    <div><img src="./images/icons/strategy.png"
+                            alt="Education">
+                    </div>
+                    <div class="card-heading">STRATEGIC PLANNING</div>
+                    <div class="cards-info">Examine perspectives your organization's goals and progress to create or evaluate your strategic plan.</div>
+                    <div class="cards-try-now">
+                        <button><img src="./svg/right-arrow.svg"
+                                alt="right-arrow"><span>Try Now</span></button>
+                    </div>
+                </div>
+            </section>
+            <section class="homepage-sample">
+                <div><h2>Got a question?</h2></div>
+                <div><h3>We've got a sample survey questionnaire for
+                        that!</h3></div>
+                <div class="sample-grid">
+                    <div>
+                        <img src="./images/survey-temp-left-rightN.png"
+                            alt="survey-temp">
+                    </div>
+                    <div>
+                        <p>Our survey questionnaire templates cover a wide
+                            variety of industries, from healthcare to education
+                            to financial services and beyond. Some are designed
+                            to perform specific customer and employee research,
+                            using leading metrics and measurements.
+
+                            You can have confidence that your surveys, forms,
+                            questionnaires, polls, and assessments will comply
+                            with any relevant standards for your industry or
+                            focus area, and sample survey questionnaires are
+                            vetted for correct terminology.
+
+                            Starting from a pristine, error-free foundation
+                            means less oversight required (and more sleep
+                            acquired). No matter how simple or complex your
+                            topic, our survey templates provide an appealing
+                            user experience, a deliberate survey structure, and
+                            a slew of question types.</p>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer class="footer">
+            <div class="footer-left">
+                <h3> QUICK LINKS</h3>
+                <div><a href="#">Online Survey Tool (DIY)</a></div>
+                <div><a href="#">Enterprise Survey Software</a></div>
+                <div><a href="#">Customer Experience (CX) Platform</a></div>
+                <div><a href="#">Employee Experience (EX) Platform</a></div>
+                <div><a href="#">Customer Feedback Management</a></div>
+                <div><a href="#">Automation and Integrations</a></div>
+                <div><a href="#">Managed Services</a></div>
+            </div>
+            <div class="footer-right">
+                <div class="company"><h3>COMPANY</h3>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Newsroom</a></li>
+                        <li><a href="#">Our Customers</a></li>
+                        <li><a href="#">Sitemap</a></li>
+                    </ul></div>
+                <div class="resources"><h3>RESOURCES</h3>
+                    <ul>
+                        <li><a href="#">Help</a></li>
+                        <li><a href="#">Training Videos</a></li>
+                        <li><a href="#">Sample Surveys</a></li>
+                        <li><a href="#">Webinars</a></li>
+                        <li><a href="#">Request a Demo</a></li>
+                        <li><a href="#">Quiz Maker</a></li>
+                    </ul></div>
+                <div class="contact">
+                    <h3>CONTACT</h3>
+                    <div class="contact-info">
+                        <div><img src="./svg/location.svg"
+                                alt="location"><p>245, IT Hub, Agra Bombay Road,
+                                Indore, India</p></div>
+                        <div id="phone"><img src="./svg/phone.svg"
+                                alt="phone"><p>+91 1800 462 9898</p></div>
+                        <div id="message"><img src="./svg/message.svg"
+                                alt="message"><a
+                                href="#">support@surveysync.com</a></div>
+                    </div>
+                    <div class="footer-logos">
+                        <img src="./svg/linkedin.svg" alt="linkedin">
+                        <img src="./svg/instagram.svg" alt="instagram">
+                        <img src="./svg/youtube.svg" alt="youtube">
+                        <img src="./svg/x.svg" alt="x">
+                        <img src="./svg/facebook.svg" alt="facebook">
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+        <div class="footer-last">
+            <div id="footer-1"><p>Copyright 2024 SurveySync. All rights
+                    reserved.</p></div>
+            <div id="footer-2">
+                <p>Privacy Policy &nbsp;|&nbsp; Terms of Service &nbsp;|&nbsp;
+                    Anti-Spam Policy &nbsp;|&nbsp; Data & Security</p></div>
+        </div>
+    </body>
 </html>

@@ -1,5 +1,24 @@
-.black-line{
-    height: 2px;
-    width: 100%;
-    background-color: black;
+.black-line {
+  height: 2px;
+  width: 100%;
+  background-color: black;
 }
+.navbar-invert {
+  background-color: rgb(26, 147, 132);
+  margin: 0;
+  padding: 0;
+}
+.navbar-invert  p {
+  background-color: rgb(26, 147, 132);
+}
+.nav-invert a:link {
+  color: black;
+  text-decoration: none;
+  background-color: rgb(26, 147, 132);
+}
+.nav-invert a:visited {
+  text-decoration: none;
+  color: black;
+  background-color: rgb(26, 147, 132);
+}
+
