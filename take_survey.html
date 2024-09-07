@@ -9,6 +9,17 @@
         <meta name="robots" content="INDEX,FOLLOW">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="utilities.css">
+        <link rel="stylesheet" href="take-survey.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap"
+            rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100..900;1,100..900&display=swap"
+            rel="stylesheet">
         <title>SurveySync</title>
     </head>
     <body>
@@ -24,7 +35,8 @@
                     <p class="nav-item">CREATE SURVEY</p>
                     <p class="nav-item">GIVE SURVEY</p>
                     <p class="nav-item">DISCUSSIONS</p>
-                    <p class="nav-item" id="about_contact"><a href="about_contact.html">ABOUT US</a></p>
+                    <p class="nav-item" id="about_contact"><a
+                            href="about_contact.html">ABOUT US</a></p>
                 </div>
             </div>
             <div class="nav-2">
@@ -35,30 +47,93 @@
                 <div class="signup">
                     <div><img src="./svg/search.svg" alt="search"></div>
                     <div><a href="my_profile.html"><img src="./svg/p.svg"
-                        alt="my_profile"></a></div>
+                                alt="my_profile"></a></div>
                 </div>
             </div>
         </nav>
         <div class="black-line"></div>
         <nav class="take-or-give-survey-nav">
             <div>
-                <div><img src="./images/survey-png.png" alt="logo"></div>
-                <div><img src="./svg/home.svg" alt="home"></div>
+                <div><img src="./svg/home-light.svg" alt="home"></div>
             </div>
             <div>
                 <h2>PROJECT NAME</h2>
             </div>
             <div>
-                <div><div><img src="./svg/arrow-up.svg" alt="arrow-up"></div>
-                <div><p>UPGRADE</p></div></div>
+                <div class="upgrade-icon"><div><img src="./svg/arrow-up.svg"
+                            alt="arrow-up"></div>
+                    <div><p>UPGRADE</p></div></div>
                 <div><img src="./svg/list.svg" alt="list"></div>
                 <div><img src="./svg/bell.svg" alt="bell"></div>
             </div>
         </nav>
         <div class="black-line"></div>
+        <nav class="design-nav">
+            <div><h4>Design</h4><h4>Distribute</h4><h4>Track</h4><h4>Report</h4><h4>Data</h4></div>
+            <div><div><img src="./svg/plus.svg"
+                        alt="plus"><p>Create</p></div><div><img
+                        src="./svg/contact-list.svg"
+                        alt="contact-list"><p>Contact Lists</p> <img
+                        src="./svg/question-mark.svg"
+                        alt="question-mark"></div></div>
+        </nav>
+        <div class="black-line"></div>
+        <nav class="nav-settings">
+            <div id="designer-visual">
+                <span  id="designer">Designer</span>
+                <span>Visual Settings &nbsp; &nbsp; &nbsp;<img src="./svg/question-mark-new.svg"
+                        alt="question-mark"></span>
+                <span><img src="./svg/gear.svg" alt="setting-gear"></span>
+
+            </div>
+            <div><span>Text & Transitions </span> <span><img
+                        src="./svg/caret-down.svg"
+                        alt="caret-down"></span><span><img
+                        src="./svg/alphabet.svg"
+                        alt="alphabet"></span><span><img src="./svg/repeat.svg"
+                        alt="repeat"></span></div>
+            <div><span>Logic</span><span><img src="./svg/caret-down.svg"
+                        alt="caret-down"></span></div>
+            <div><span>Instant Alerts</span><span><img
+                        src="./svg/caret-down.svg"
+                        alt="caret-down"></span></div>
+        </nav>
         <section class="take-survey-main">
-            <aside class="take-survey-left"></aside>
-            <aside class="take-survey-right"></aside>
+            <aside class="take-survey-left">
+                <div class="take-survey-questions-heading">
+                    <div id="question-types">Question Types</div>
+                    <div id="question-bank">Question Bank</div>
+                </div>
+                <div class="black-line" id="black-line-take"></div>
+                <div class="questions-options">Questions <img src="./svg/caret-down.svg" alt="caret-down"></div>
+                <div class="take-survey-options">
+                    <div><img src="./svg/message2.svg" alt="descriptive text"><div>Descriptive Text</div></div>
+                    <div><img src="./svg/circle-dot.svg" alt="Radio Button"><div>Radio Button</div></div>
+                    <div><img src="./svg/check.svg" alt="check"><div>Check Box</div></div>
+                    <div><img src="./svg/demographies.svg" alt="demographies"><div>Demographies</div></div>
+                    <div><img src="./svg/half-star.svg" alt="Rating Scale"><div>Rating Scale</div></div>
+                    <div><img src="./svg/thumbs-up.svg" alt="like dislike"><div>Like Dislike</div></div>
+                    <div><img src="./svg/paperclip.svg" alt="paperclip"><div>Attachment</div></div>
+                    <div><img src="./svg/calendar.svg" alt="calendar"><div>Date</div></div>
+                    <div><img src="./svg/image.svg" alt="image"><div>
+                        Image Choice</div></div>
+                    <div><img src="./svg/grid-verticle.svg" alt="grid-verticle"><div>Multiple Text Box</div></div>
+                </div>
+            </aside>
+            <aside class="take-survey-right">
+                <nav class="right-top-options">
+                    <div><div>English</div><div><img style="background-color: white;" id="caret-down" src="./svg/caret-down.svg" alt="down-arrow"></div><div>Rearrange Questions</div>
+                    </div></div>
+                    <div class="take-options-left"><div title="Notes"><img src="./svg/clipboard.svg" alt="clipboard"></div><div title="Share"><img src="./svg/share.svg" alt="forward"></div><div title="Preview"><img src="./svg/eye.svg" alt="preview"></div></div>
+                </nav>
+                <div class="take-survey-right-main">
+                    <div class="take-survey-header">
+                        <div><img src="./svg/plus.svg" alt="add"><span>Add Logo</span></div><div><h3>Header</h3></div>
+                    </div>
+                    <div class="take-survey-ready"><h4>Ready to get started?</h4><p>Double-click or drag and drop a question from the menu on the left.</p></div>
+                    <div class="take-survey-footer"><img src="./svg/plus.svg" alt="plus"><span>Add Footer</span></div>
+                </div>
+            </aside>
         </section>
         <footer class="footer">
             <div class="footer-left">
