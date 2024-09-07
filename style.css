@@ -766,6 +766,7 @@ body {
   background-color: rgb(242, 245, 245);
   padding-bottom: 35px;
   cursor: pointer;
+  height: 55vh;
   box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
 }
 .homepage-survey-cards img{
@@ -783,6 +784,7 @@ body {
 .cards-info{
   font-family: "Epilogue", sans-serif;
 }
+
 .cards-try-now button{
   display: flex;
   align-items: center;
@@ -875,10 +877,10 @@ body {
   border-radius: 30px;
 }
 .left-select img{
-  border: 10px solid rgb(23, 79, 79);
+  border: 7.5px solid rgb(23, 79, 79);
 }
 .right-select img{
-  border: 10px solid rgb(23,79,79);
+  border: 7.5px solid rgb(23,79,79);
 }
 #left-select-img{
   cursor: pointer;
