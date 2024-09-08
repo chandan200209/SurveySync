@@ -999,8 +999,9 @@ body {
   flex-direction: column;
   gap: 25px;
   border: 5px solid rgb(72, 71, 71);
+  border-radius: 10px;
   margin-top: 2.5vh;
-  background-color: #c6e9e0;
+  background-color: #daefea;
 }
 .take-survey-questions-heading{
   display: flex;
@@ -1043,7 +1044,7 @@ body {
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 10px;
-  column-gap: 10px;
+  column-gap: 15px;
   margin-bottom: 10px;
   position: relative;
   bottom: 30px;
@@ -1051,7 +1052,9 @@ body {
 .take-survey-options > div{
   border: 3px solid rgb(66, 66, 66);
   display: flex;
+  color: rgb(47, 44, 44);
   flex-direction: column;
+  border-radius: 10px;
   background-color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   align-items: center;
@@ -1069,6 +1072,7 @@ body {
   border: 3px solid gray;
   margin-left: 1.5vw;
   margin-top: 2.5vh;
+  border-radius: 10px;
 }
 .right-top-options{
   padding-left: 1vw;
@@ -1089,7 +1093,7 @@ body {
   width: 22.5px;
   height: 22.5px;
   margin-top: 1vh;
-  background-color: rgb(197, 193, 193);
+  background-color: rgb(220, 238, 233);
   padding: 10px;
   border-radius: 50px;
 }
@@ -1098,14 +1102,15 @@ body {
   width: 20px;
 }
 .take-survey-right-main{
-  border: 3px solid black;
+  border: 3px solid rgb(79, 78, 78);
+  border-radius: 7.5px;
   display: grid;
   height: 65vh;
   grid-template-rows: 1fr 3fr 1fr;
   margin-left: 1.5vw;
   margin-right: 1.5vw;
   margin-top: 5vh;
-  background-color: rgb(177, 212, 214);
+  background-color: rgb(220, 246, 247);
 }
 .take-survey-right-main img{
   height: 20px;
@@ -1146,4 +1151,103 @@ body {
   gap: 10px;
   align-items: center;
   cursor: pointer;
+}
+.privacy-policy{
+  background-color: #082325;
+  color: white;
+  display: flex;
+  align-items: center;
+  height: 7.5vh;
+  justify-content: flex-start;
+  padding-left: 1.5vw;
+  gap: 25pt;
+}
+.privacy-policy-main{
+  height: 1500vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  background-color: #c6e9e0;
+}
+.privacy-policy-left{
+  height: 100vh;
+  background-color: #252736;
+  padding-left: 1.5vw;
+  padding-top: 2.5vh;
+  color: white;
+}
+.privacy-policy-left h2{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.privacy-policy-left h4{
+  color: rgb(173, 173, 173);
+  position: relative;
+  bottom: 20px;
+}
+.privacy-policy-list{
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  color: rgb(186, 186, 188);
+  position: relative;
+  right: 40px;
+}
+.privacy-policy-left li{
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.privacy-policy-left li:hover{
+  background-color: rgb(0, 0, 0);
+  color: rgb(221, 216, 216);
+}
+.privacy-policy-right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.privacy-policy-update{
+  background-color: rgb(201, 228, 203);
+  margin-top: 10vh;
+  margin-bottom: 5vh;
+  width: 50vw;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid rgb(132, 196, 137);
+  font-family: Arial, Helvetica, sans-serif;
+}
+.privacy-policy-content{
+  font-size: 17.5px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.about-main{
+  background-color: #c6e9e0;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 10vh;
+}
+.about-main h2{
+  text-transform: uppercase;
+  font-size: 35px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.about-main h3{
+  font-size: 25px;
+}
+.about-last h5{
+  font-size: 25px;
+  position: relative;
+  bottom: 15px;
+}
+.about-last p{
+  position: relative;
+  bottom: 45px;
 }
