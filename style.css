@@ -1259,5 +1259,14 @@ body {
   display: grid;
   background-color: #0d464a;
   color: white;
+  height: 150vh;
   grid-template-columns: 7fr 3fr;
+  padding-left: 5vw;
+  padding-top: 2.5vh;
+}
+.give-survey-left h3{
+  font-size: 35px;
+}
+.give-survey-left h4{
+  font-size: 20px;
 }
