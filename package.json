@@ -1,5 +1,25 @@
 {
   "devDependencies": {
+    "tailwindcss": "^3.4.17",
     "web-vitals": "^4.2.4"
-  }
+  },
+  "name": "pro-1",
+  "version": "1.0.0",
+  "description": "Minor Project I (developed in the fifth semester of the BTech. at MIT - 2023); members are Abhishek Malviya, Aditya Sharma, Bhumika Jain and Chandan Ramteke.<br>\r This project is about a survey application, named as SurveySync.<br>\r SurveySync is applied for conducting all kinds of surveys and generating insights and information about them; either in textual, numerical or graphical form.",
+  "main": "log_in.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1", 
+    "build-tailwind": "npx tailwindcss -i ./my-app/src/input.css -o ./my-app/src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chandan200209/pro-1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chandan200209/pro-1/issues"
+  },
+  "homepage": "https://github.com/chandan200209/pro-1#readme"
 }
